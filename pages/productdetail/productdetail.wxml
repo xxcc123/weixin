@@ -1,0 +1,18 @@
+<!--pages/productdetail/productdetail.wxml-->
+<image class="image" src="{{list.goods_content}}"></image>
+<text class="title">{{list.goods_name}}</text>
+<view class="price">
+  <text class="price-left">现价：￥{{list.stock_price}}</text>
+  <text class="price-right">VIP价：￥{{list.vip_price}}</text>
+</view>
+<!-- <view>
+  <text class="text">数量：</text>
+  <button>-</button>
+  <input type="number" min='1' value="1"></input>
+  <button>+</button>
+</view> -->
+<view class="line"></view>
+<view class="detail">简介</view>
+<view>
+<rich-text class="images" nodes="{{list.goods_desc}}" bindtap="tap"></rich-text>
+</view>

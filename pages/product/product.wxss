@@ -1,0 +1,8 @@
+/* pages/product/product.wxss */
+.view{
+ margin: 2px 0 10px 10px; 
+ border-bottom: 1px solid whitesmoke;
+}
+.image{
+  width: 100%
+}

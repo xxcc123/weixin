@@ -1,0 +1,45 @@
+/* pages/productdetail/productdetail.wxss */
+.image{
+  width: 100%;
+  margin-bottom:10px;
+}
+.title{
+  margin-left: 10px;
+}
+.price{
+  color: red;
+  margin:6px 0 20px 0;
+}
+.price-left{
+  margin-left: 10px;
+}
+.price-right{
+  float:right;
+  margin-right: 20px;
+}
+.text{
+  margin-left: 10px;
+  float: left;
+}
+input{
+  border: 1px solid silver;
+  width:40px;
+  float: left;
+  text-align:center;
+}
+button{
+  width:20px;
+  height:28px;
+  line-height: 28px;
+  float: left;
+}
+.line{
+  border-bottom:1px solid silver;
+}
+.detail{
+  text-align: center;
+}
+.images{
+  display: inline-block;
+  width: 100%
+}

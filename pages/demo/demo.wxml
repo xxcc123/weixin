@@ -1,0 +1,32 @@
+<!-- pages/demo/demo.wxml -->
+<text>名字：{{name}}</text>
+<view>年龄：{{age}}</view>
+<input class="input" type="text" name='text' bindinput="getdemo"></input>
+
+
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <view class="page-section">
+    <view class="weui-cells__title">账号：</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="input" bindinput="getName" auto-focus placeholder="请输入用户名"/>
+      </view>
+    </view>
+    <view class="weui-cells__title">密码：</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input type="password" class="input" bindinput="getPassword" auto-focus placeholder="请输入密码"/>
+      </view>
+    </view>
+  </view>
+  <view class="btn-area">
+    <button formType="submit">Submit</button>
+  </view>
+</form>
+
+<view class="btn-area">
+  <navigator url="/page/navigate/navigate?title=navigate" hover-class="navigator-hover">跳转到新页面</navigator>
+  <navigator url="../../redirect/redirect/redirect?title=redirect" open-type="redirect" hover-class="other-navigator-hover">在当前页打开</navigator>
+  <navigator url="/page/index/index" open-type="switchTab" hover-class="other-navigator-hover">切换 Tab</navigator>
+  <navigator target="miniProgram" open-type="navigate" app-id="" path="" extra-data="" version="release">打开绑定的小程序</navigator>
+</view>

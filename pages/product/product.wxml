@@ -1,0 +1,11 @@
+<!--pages/product/product.wxml-->
+
+<view wx:for="{{list}}" wx:for-index="idx" wx:for-item="item">
+  <view bindtap="imageredirect" data-index="{{item.id}}"><image class="image" src="{{item.goods_content}}"></image></view>
+  <view class="view">
+    <view>商品编号：{{item.goods_number}}</view>
+    <view>商品名：{{item.goods_name}}</view>
+    <view>价格：{{item.stock_price}}</view>
+    <view>VIP价格：{{item.vip_price}}</view>
+  </view>
+</view>
