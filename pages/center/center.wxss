@@ -38,18 +38,32 @@
   font-weight: 800;
 }
 
-.image image{
-  display: block;
+.image{
   float: left;
-  width: 67px;
-  height: 58px;
-  padding: 4px;
+  width: 100%;
+  text-align: center;
+}
+.image view{
+  float: left;
+  width: 20%;
+  height: 60px;
+  margin:6px 0 6px 0;
+  text-align: center;
+}
+.image view image{
+  width: 40px;
+  height: 40px;
+}
+.image view text{
+  width: 100%;
+  float: left;
+  font-size: 14px;
 }
 .sing-image{
   height: 60px;
   width: 90%;
   margin: 6px 0 0 5%;
-  border-radius: 16px;
+  border-radius: 8px;
 }
 .line{
   width: 100%;
@@ -63,9 +77,9 @@
 }
 .serve view{
   float: left;
-  width: 85px;
+  width: 25%;
   height: 60px;
-  padding: 4px;
+  margin:6px 0 6px 0;
   text-align: center;
 }
 .serve view image{
@@ -73,7 +87,7 @@
   height: 40px;
 }
 .serve view text{
-  width: 85px;
+  width: 100%;
   float: left;
   font-size: 14px;
 }

@@ -11,11 +11,31 @@
   <text class="bannel-right">></text>
 </view>
 <view class="image">
-  <image src="../images/001.png"></image>
+  <view>
+    <image src="../images/icon-my-001.png"></image>
+    <text>代付款</text>
+  </view>
+  <view>
+    <image src="../images/icon-my-002.png"></image>
+    <text>代发货</text>
+  </view>
+  <view>
+    <image src="../images/icon-my-003.png"></image>
+    <text>已发货</text>
+  </view>
+  <view>
+    <image src="../images/icon-my-004.png"></image>
+    <text>待评价</text>
+  </view>
+  <view>
+    <image src="../images/icon-my-005.png"></image>
+    <text>退换/售后</text>
+  </view>
+  <!-- <image src="../images/001.png"></image>
   <image src="../images/002.png"></image>
   <image src="../images/003.png"></image>
   <image src="../images/004.png"></image>
-  <image src="../images/005.png"></image>
+  <image src="../images/005.png"></image> -->
 </view>
 <view>
   <image class="sing-image" src="../images/006.png"></image>
