@@ -3,6 +3,7 @@
     "pages/product/product",
     "pages/productdetail/productdetail",
     "pages/demo/demo",
+    "pages/center/center",
     "pages/index/index",
     "pages/logs/logs"
   ],
@@ -19,22 +20,22 @@
     "borderStyle": "black",
     "list": [
     {
-      "selectedIconPath": "",
-      "iconPath": "",
+      "selectedIconPath": "./pages/images/index.png",
+      "iconPath": "./pages/images/index.png",
       "pagePath": "pages/product/product",
       "text": "首页"  
     },
     {
-    "selectedIconPath": "",
-    "iconPath": "",
+    "selectedIconPath": "./pages/images/card.png",
+    "iconPath": "./pages/images/card.png",
     "pagePath": "pages/logs/logs",
     "text": "购物车"  
 
     },
     {
-    "selectedIconPath": "",
-    "iconPath": "",
-    "pagePath": "pages/index/index",
+    "selectedIconPath": "./pages/images/my.png",
+    "iconPath": "./pages/images/my.png",
+    "pagePath": "pages/center/center",
     "text": "我的"  
     }
     ]  

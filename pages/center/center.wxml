@@ -1,0 +1,102 @@
+<!--pages/center/center.wxml-->
+<view class="header">
+  <image class="header" src="../images/1000316.jpg"></image>
+  <view class="info">
+    <image src="../images/325657.jpg"></image>
+    <text>{{user.user_realname}}</text>
+  </view>
+</view>
+<view class="bannel">
+  <text class="bannel-left">我的订单</text>
+  <text class="bannel-right">></text>
+</view>
+<view class="image">
+  <image src="../images/001.png"></image>
+  <image src="../images/002.png"></image>
+  <image src="../images/003.png"></image>
+  <image src="../images/004.png"></image>
+  <image src="../images/005.png"></image>
+</view>
+<view>
+  <image class="sing-image" src="../images/006.png"></image>
+</view>
+<view class="line"></view>
+<view class="bannel">
+  <text class="bannel-left">我的服务</text>
+  <text class="bannel-right">></text>
+</view>
+<view class="serve">
+  <view>
+    <image src="../images/icon-my-006.png"></image>
+    <text>拼团订单</text>
+  </view>
+  <view>
+    <image src="../images/icon-my-007.png"></image>
+    <text>众筹订单</text>
+  </view>
+  <view>
+    <image src="../images/icon-my-008.png"></image>
+    <text>好友邀请</text>
+  </view>
+  <view>
+    <image src="../images/icon-my-009.png"></image>
+    <text>优惠券</text>
+  </view>
+</view>
+<view class="per"></view>
+<view class="serve">
+  <view>
+    <image src="../images/icon-my-010.png"></image>
+    <text>红包</text>
+  </view>
+  <view>
+    <image src="../images/icon-my-011.png"></image>
+    <text>优先购</text>
+  </view>
+  <view>
+    <image src="../images/icon-my-012.png"></image>
+    <text>礼品卡</text>
+  </view>
+  <view>
+    <image src="../images/icon-my-013.png"></image>
+    <text>会员专区</text>
+  </view>
+</view>
+<view class="per"></view>
+<view class="serve">
+  <view>
+    <image src="../images/icon-my-014.png"></image>
+    <text>积分中心</text>
+  </view>
+  <view>
+    <image src="../images/icon-my-015.png"></image>
+    <text>甄选商品</text>
+  </view>
+  <view>
+    <image src="../images/icon-my-016.png"></image>
+    <text>浏览足迹</text>
+  </view>
+  <view>
+    <image src="../images/icon-my-017.png"></image>
+    <text>收藏</text>
+  </view>
+</view>
+<view class="per"></view>
+<view class="serve">
+  <view>
+    <image src="../images/icon-my-018.png"></image>
+    <text>地址</text>
+  </view>
+  <view>
+    <image src="../images/icon-my-019.png"></image>
+    <text>客服中心</text>
+  </view>
+  <view>
+    <image src="../images/icon-my-020.png"></image>
+    <text>合作</text>
+  </view>
+  <view>
+    <image src="../images/icon-my-021.png"></image>
+    <text>设置</text>
+  </view>
+</view>
