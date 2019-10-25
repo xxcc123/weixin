@@ -3,11 +3,12 @@
   <image class="header" src="../images/1000316.jpg"></image>
   <view class="info">
     <image src="../images/325657.jpg"></image>
-    <text>{{user.user_realname}}</text>
+    <text>{{user.res.user_realname}}</text>
   </view>
 </view>
 <view class="bannel">
   <text class="bannel-left">我的订单</text>
+  <text class="bannel-center">{{user.order}}</text>
   <text class="bannel-right">></text>
 </view>
 <view class="image">
@@ -24,6 +25,11 @@
     <text>已发货</text>
   </view>
   <view>
+    <cover-view wx:for="{{user.res.order}}" wx:for-index="idx" wx:for-item="item">
+      <text wx:if="{{item.order_status == '已签收'}}">
+        {{item.id}}
+      </text>
+    </cover-view>
     <image src="../images/icon-my-004.png"></image>
     <text>待评价</text>
   </view>
@@ -31,11 +37,6 @@
     <image src="../images/icon-my-005.png"></image>
     <text>退换/售后</text>
   </view>
-  <!-- <image src="../images/001.png"></image>
-  <image src="../images/002.png"></image>
-  <image src="../images/003.png"></image>
-  <image src="../images/004.png"></image>
-  <image src="../images/005.png"></image> -->
 </view>
 <view>
   <image class="sing-image" src="../images/006.png"></image>

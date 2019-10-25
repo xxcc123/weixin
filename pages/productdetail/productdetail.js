@@ -1,4 +1,7 @@
 // pages/productdetail/productdetail.js
+
+var config = require("../../utils/config.js");
+
 Page({
 
   /**
@@ -15,7 +18,7 @@ Page({
     var that = this;
     console.log(options.id);
     wx.request({
-      url: 'http://localhost/tp5/public/index.php/backend/Api/goods_detail',
+      url: config.host+'backend/Api/goods_detail',
       data: {
         id: options.id
       },

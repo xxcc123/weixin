@@ -31,6 +31,10 @@
 .bannel-left{
   margin-left: 16px;
 }
+.bannel-center{
+  color:red;
+  margin-left:6px;
+}
 .bannel-right{
   float: right;
   color: silver;
@@ -49,6 +53,17 @@
   height: 60px;
   margin:6px 0 6px 0;
   text-align: center;
+}
+.image view cover-view{
+  font-size: 14px;
+  color: red;
+  float: right;
+  z-index: 999;
+  margin-left: -20px;
+  width: 20px;
+  height: 20px;
+  border: 1px solid red;
+  border-radius: 25px;
 }
 .image view image{
   width: 40px;

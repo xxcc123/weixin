@@ -1,4 +1,7 @@
 // pages/center/center.js
+
+var config = require("../../utils/config.js");
+
 Page({
 
   /**
@@ -14,7 +17,7 @@ Page({
   onLoad: function (options) {
     var that = this;
     wx.request({
-      url: 'http://localhost/tp5/public/index.php/backend/Api/center',
+      url: config.host+'backend/Api/center',
       data: {
         name: "admin2019"
       },
@@ -24,9 +27,9 @@ Page({
       method: "POST",
       success: function (data) {
         that.setData({
-          user: data.data.res
+          user: data.data
         }),
-        console.log(data.data.res)
+        console.log(data.data)
       },
       fail: function (error) {
         console.log(22)

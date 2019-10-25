@@ -1,4 +1,7 @@
 // pages/product/product.js
+
+var config = require("../../utils/config.js");
+
 Page({
 
   /**
@@ -23,7 +26,7 @@ Page({
   onLoad: function (options) {
     var that = this;
     wx.request({
-      url: 'http://localhost/tp5/public/index.php/backend/Api/goods',
+      url: config.host + 'backend/Api/goods',
       data: {
         
       },
